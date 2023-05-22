@@ -262,6 +262,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.16.3":
+  version: 18.16.5
+  resolution: "@types/node@npm:18.16.5"
+  checksum: b6df96a76a7655cd944794197cf63f5269e5034041bc355f4f243cb3f185ad3e1948011b6f0ac66c22434e50bc53a20ec3a9d95ad284f0e3819813d309d1650b
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
@@ -278,6 +285,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:^18.2.1":
+  version: 18.2.4
+  resolution: "@types/react-dom@npm:18.2.4"
+  dependencies:
+    "@types/react": "*"
+  checksum: 8301f35cf1cbfec8c723e9477aecf87774e3c168bd457d353b23c45064737213d3e8008b067c6767b7b08e4f2b3823ee239242a6c225fc91e7f8725ef8734124
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:*, @types/react@npm:18.2.1":
   version: 18.2.1
   resolution: "@types/react@npm:18.2.1"
@@ -286,6 +302,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: a957e767fa087c7b63274d286d3a6ee2b9ec070159170346995abc5fddcd351a015770eb8452ba7974ded932b379f869b093dbadcbfa786a0a851fb5be581296
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.0":
+  version: 18.2.6
+  resolution: "@types/react@npm:18.2.6"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: dea9d232d8df7ac357367a69dcb557711ab3d5501807ffa77cebeee73d49ee94d095f298e36853c63ed47cce097eee4c7eae2aaa8c02fac3f0171ec1b523a819
   languageName: node
   linkType: hard
 
@@ -430,6 +457,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@wanted/ui@workspace:^, @wanted/ui@workspace:packages/ui":
+  version: 0.0.0-use.local
+  resolution: "@wanted/ui@workspace:packages/ui"
+  dependencies:
+    "@types/node": ^18.16.3
+    "@types/react": ^18.2.0
+    "@types/react-dom": ^18.2.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@wanted/web@workspace:apps/wanted":
   version: 0.0.0-use.local
   resolution: "@wanted/web@workspace:apps/wanted"
@@ -438,6 +478,7 @@ __metadata:
     "@types/react": 18.2.1
     "@types/react-dom": 18.2.2
     "@wanted/lib": "workspace:^"
+    "@wanted/ui": "workspace:^"
     eslint: 8.39.0
     eslint-config-next: 13.3.4
     next: 13.3.4
@@ -2611,7 +2652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
+"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -2630,7 +2671,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
+"react@npm:18.2.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:

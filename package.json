@@ -2,6 +2,9 @@
   "name": "yarn-berry-workspace",
   "packageManager": "yarn@3.5.1",
   "private": true,
+  "scripts": {
+    "g:typecheck": "yarn workspaces foreach -pv run typecheck"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
