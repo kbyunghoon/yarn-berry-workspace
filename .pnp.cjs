@@ -3888,6 +3888,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:ab37f22f1d525bf825f971bb6c72fd04f2b72afc8710913cfb556778a1885b71fc58c328ab1daa912afe33d27755ea83ed4d0ea825b39fc899f1efbc5807e47a#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:ab37f22f1d525bf825f971bb6c72fd04f2b72afc8710913cfb556778a1885b71fc58c328ab1daa912afe33d27755ea83ed4d0ea825b39fc899f1efbc5807e47a#npm:13.5.0"],\
+            ["@types/node", "npm:18.16.3"],\
+            ["@types/react", "npm:18.2.1"],\
+            ["@types/react-dom", "npm:18.2.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ab37f22f1d525bf825f971bb6c72fd04f2b72afc8710913cfb556778a1885b71fc58c328ab1daa912afe33d27755ea83ed4d0ea825b39fc899f1efbc5807e47a#npm:18.2.0"],\
             ["react-scripts", "virtual:ab37f22f1d525bf825f971bb6c72fd04f2b72afc8710913cfb556778a1885b71fc58c328ab1daa912afe33d27755ea83ed4d0ea825b39fc899f1efbc5807e47a#npm:5.0.1"],\
@@ -4261,12 +4264,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:ab37f22f1d525bf825f971bb6c72fd04f2b72afc8710913cfb556778a1885b71fc58c328ab1daa912afe33d27755ea83ed4d0ea825b39fc899f1efbc5807e47a#npm:13.4.0"],\
             ["@babel/runtime", "npm:7.21.5"],\
             ["@testing-library/dom", "npm:8.20.0"],\
-            ["@types/react", null],\
-            ["@types/react-dom", "npm:18.2.4"],\
+            ["@types/react", "npm:18.2.1"],\
+            ["@types/react-dom", "npm:18.2.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ab37f22f1d525bf825f971bb6c72fd04f2b72afc8710913cfb556778a1885b71fc58c328ab1daa912afe33d27755ea83ed4d0ea825b39fc899f1efbc5807e47a#npm:18.2.0"]\
           ],\
           "packagePeers": [\
+            "@types/react-dom",\
             "@types/react",\
             "react-dom",\
             "react"\
@@ -4586,6 +4590,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
+        ["npm:18.16.3", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.16.3-4036a5f5f3-816b39d45b.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.16.3"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:18.16.5", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-18.16.5-057278d731-b6df96a76a.zip/node_modules/@types/node/",\
           "packageDependencies": [\
@@ -4678,6 +4689,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/react-dom", [\
+        ["npm:18.2.2", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.2-e2016f25d3-261d8a47c8.zip/node_modules/@types/react-dom/",\
+          "packageDependencies": [\
+            ["@types/react-dom", "npm:18.2.2"],\
+            ["@types/react", "npm:18.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:18.2.4", {\
           "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.4-5d62ac2096-8301f35cf1.zip/node_modules/@types/react-dom/",\
           "packageDependencies": [\
@@ -15355,7 +15374,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/react-dom-virtual-d408f590c1/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
             ["react-dom", "virtual:ab37f22f1d525bf825f971bb6c72fd04f2b72afc8710913cfb556778a1885b71fc58c328ab1daa912afe33d27755ea83ed4d0ea825b39fc899f1efbc5807e47a#npm:18.2.0"],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.2.1"],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
@@ -15424,7 +15443,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@pmmmwh/react-refresh-webpack-plugin", "virtual:d953f8e0738efa10cea95c0686fd405c20e77ccfb876ef4c533166c79910ba2a41c6e59b712e158929a642b2e3d1c914f45155f88ab0fa26161cf4b77f415ee9#npm:0.5.10"],\
             ["@svgr/webpack", "npm:5.5.0"],\
             ["@types/eslint", null],\
-            ["@types/react", null],\
+            ["@types/react", "npm:18.2.1"],\
             ["@types/typescript", null],\
             ["babel-jest", "virtual:d953f8e0738efa10cea95c0686fd405c20e77ccfb876ef4c533166c79910ba2a41c6e59b712e158929a642b2e3d1c914f45155f88ab0fa26161cf4b77f415ee9#npm:27.5.1"],\
             ["babel-loader", "virtual:d953f8e0738efa10cea95c0686fd405c20e77ccfb876ef4c533166c79910ba2a41c6e59b712e158929a642b2e3d1c914f45155f88ab0fa26161cf4b77f415ee9#npm:8.3.0"],\

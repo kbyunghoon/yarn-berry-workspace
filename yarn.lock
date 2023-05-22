@@ -2256,6 +2256,9 @@ __metadata:
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
     "@testing-library/user-event": ^13.5.0
+    "@types/node": 18.16.3
+    "@types/react": 18.2.1
+    "@types/react-dom": 18.2.2
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
@@ -2821,6 +2824,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:18.16.3":
+  version: 18.16.3
+  resolution: "@types/node@npm:18.16.3"
+  checksum: 816b39d45b05ebdc6f362b630970df3f6d82f71d418a2555353522f4eeeb078fa201de5299f02c09a09faa975e43b2745fe19c263d44069f87ddf37d6c37b717
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^18.16.3":
   version: 18.16.5
   resolution: "@types/node@npm:18.16.5"
@@ -2870,6 +2880,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-dom@npm:18.2.2":
+  version: 18.2.2
+  resolution: "@types/react-dom@npm:18.2.2"
+  dependencies:
+    "@types/react": "*"
+  checksum: 261d8a47c886a1b80b48506fd77d9a4efb5511a603abc9a5c190f64005a2e7904f2b2ec28ee224b120d154c43d55ba7ae8300867bf85e95c1b82831828e04407
+  languageName: node
+  linkType: hard
+
 "@types/react-dom@npm:^18.0.0, @types/react-dom@npm:^18.2.1":
   version: 18.2.4
   resolution: "@types/react-dom@npm:18.2.4"
@@ -2879,7 +2898,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:18.2.1":
   version: 18.2.1
   resolution: "@types/react@npm:18.2.1"
   dependencies:
